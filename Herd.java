@@ -1,4 +1,4 @@
-//© A+ Computer Science
+//Â© A+ Computer Science
 // www.apluscompsci.com
 
 //ArrayList of User-defined Classes
@@ -30,12 +30,6 @@ public class Herd
 	public int countBigOnes()
 	{
 		int count = 0;
-
-		for(Creature thing: list)
-		{
-			if(thing.isBig())
-				count++;
-		}
 
 		return count;
 	}
